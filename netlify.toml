@@ -1,0 +1,9 @@
+# Netlify config — static site, no build step
+[build]
+  publish = "."
+
+# Optional: force trailing slash off for clean URLs
+[[redirects]]
+  from = "/*"
+  to = "/:splat"
+  status = 200
