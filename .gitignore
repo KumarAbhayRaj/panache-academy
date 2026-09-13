@@ -16,3 +16,6 @@ node_modules/
 
 # Logs
 *.log
+
+# Local-only hibernation credentials — never on GitHub
+VAULT.md

@@ -130,7 +130,7 @@ Cox & Kings · Emirates · Gujarat Tourism · IndiGo · Kuoni · Marriott · Qat
 ## Project Folder Structure
 
 ```
-D:\Panache Website\
+D:\03_Clients\01_Panache_Academy\
 ├── MEMORY.md
 ├── index.html
 ├── courses.html
@@ -216,7 +216,7 @@ All 5 pages built. All scraped content used verbatim where possible. All metrics
   - CSS: removed old `.brand-mark / .brand-text / .brand-name / .brand-sub` rules; added `.brand-img` at 42px height (header) / 48px (footer), with `.brand .brand-img-light { display: none }` and `.brand.brand-light .brand-img-dark { display: none }` to swap variants automatically.
   - Replaced the contact-page map placeholder with a live Google Maps iframe embed: `<iframe src="https://maps.google.com/maps?q=Panache+Academy+Ahmedabad&t=&z=11&output=embed">`. No API key needed for this basic embed. The iframe fills the `.map-wrap` (360px height, full width).
   - DOM-verified in preview: header logo loads at 127×42, footer logo at 145×48 over navy `rgb(6,15,34)`, Google Maps iframe loaded at 885×419 with src=`maps.google.com`. Note: Chrome's screenshot capture hangs when the cross-origin Maps iframe is in the DOM — a known limitation; the iframe itself renders fine for users.
-- **2026-05-15 — Partner logo integration.** User dropped 22 logo files into `D:\Panache Website\logos\`. Renamed all to URL-friendly slugs (e.g. `Air_India_logo_(2007–2023).svg` → `air-india.svg`, `Go Air Logo Vector.svg` → `goair.svg`). Replaced text-chip marquee on homepage with `<img>` tags for each logoed partner. Replaced text-chip sector lists on placements page with logo cards. CSS: added `.marquee-logos` and `.brand-chips-logos` variants that render each chip as a white card (150×72 marquee, 150×68 placements) with the partner logo inside (height 36px, contain).
+- **2026-05-15 — Partner logo integration.** User dropped 22 logo files into `D:\03_Clients\01_Panache_Academy\logos\`. Renamed all to URL-friendly slugs (e.g. `Air_India_logo_(2007–2023).svg` → `air-india.svg`, `Go Air Logo Vector.svg` → `goair.svg`). Replaced text-chip marquee on homepage with `<img>` tags for each logoed partner. Replaced text-chip sector lists on placements page with logo cards. CSS: added `.marquee-logos` and `.brand-chips-logos` variants that render each chip as a white card (150×72 marquee, 150×68 placements) with the partner logo inside (height 36px, contain).
   - **Removed names due to missing logos** (3 total):
     - **Vistara** — from homepage marquee + placements Aviation sector
     - **Worldwide DMC** — from placements Travel & Tourism sector
@@ -282,7 +282,7 @@ All 5 pages built. All scraped content used verbatim where possible. All metrics
 
 ## Future-edit workflow
 
-From `D:\Panache Website\` run:
+From `D:\03_Clients\01_Panache_Academy\` run:
 ```
 git add .
 git commit -m "your message"
