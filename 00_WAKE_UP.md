@@ -14,7 +14,7 @@ Open `index.html` in any modern browser and it works.
 | Local dev server | ✅ Any static server works. `python -m http.server 5500` from this folder is what we used |
 | Git repo | ✅ Clean. Branch `main`. Remote: `github.com/kmrabhay1996/panache-academy` |
 | GitHub Pages deploy | ✅ Live at `https://kmrabhay1996.github.io/panache-academy/` |
-| Netlify deploy | ⚠ Set up manually via `netlify.com` → Add site from Git (see `REVIVAL.md`) |
+| Netlify deploy | ✅ Live at `https://panache-academy.netlify.app/` |
 | Contact form | ✅ Client-side validation + `mailto:` fallback. No backend. Real submissions open the user's mail client |
 | Custom cursor + click sparks | ✅ Vanilla JS in `js/main.js` sections 9 and 10 |
 | Google Maps embeds (contact + placements) | ⚠ Uses free iframe embed. No API key needed but Google can change the URL format any time |

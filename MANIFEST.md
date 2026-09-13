@@ -74,4 +74,4 @@ git checkout <commit-hash> -- video/Hero_Banner.mp4
 - **Google Drive backup:** `G:\My Drive\Work\Panache\Panache_Logo-01.svg`, `Panache_Logo-02.svg` (same files as `images/panache-logo-01.svg`, `-02.svg`)
 - **GitHub mirror:** `https://github.com/kmrabhay1996/panache-academy` — everything except `VAULT.md`
 - **Live deploy #1:** `https://kmrabhay1996.github.io/panache-academy/`
-- **Live deploy #2 (Netlify):** URL depends on the Netlify site name chosen at setup (see `VAULT.md`)
+- **Live deploy #2 (Netlify):** `https://panache-academy.netlify.app/`
